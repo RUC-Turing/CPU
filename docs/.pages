@@ -1,0 +1,6 @@
+nav:
+  - 首页: index.md
+  - Verilog 语言: verilog
+  - MIPS 指令集参考: mips
+  - 开发工具: tools
+  - 课程作业: assignments

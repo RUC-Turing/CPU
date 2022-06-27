@@ -1,0 +1,5 @@
+{
+  "pasteImage.filePathConfirmInputBoxMode": "onlyName",
+  "pasteImage.path": "${currentFileDir}/_img/${currentFileNameWithoutExt}",
+  "pasteImage.showFilePathConfirmInputBox": true
+}

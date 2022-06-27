@@ -1,0 +1,43 @@
+site_name: 现代处理器设计
+site_author: Menci
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.indexes
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      toggle:
+        icon: material/toggle-switch
+        name: 切换到亮色模式
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: pink
+      accent: pink
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: 切换到暗色模式
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/memory
+  favicon: assets/favicon.svg
+copyright: Copyright &copy; 2022 Menci
+repo_url: https://github.com/RUC-Turing/CPU
+repo_name: RUC-Turing/CPU
+markdown_extensions:
+  - toc:
+      permalink: "#"
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+plugins:
+  - search
+  - awesome-pages
+  - mkdocs-simple-hooks:
+      hooks:
+        on_page_content: src.img_hidpi:on_page_content

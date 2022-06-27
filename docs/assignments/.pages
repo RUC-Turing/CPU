@@ -1,0 +1,9 @@
+nav:
+  - index.md
+  - adder.md
+  - alu.md
+  - mips.md
+  - pc-dm.md
+  - single-cycle.md
+  - pipeline-simple.md
+  - pipeline-complex.md
