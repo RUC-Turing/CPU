@@ -1,2 +1,5 @@
 nav:
   - index.md
+  - inst-calc.md
+  - inst-mem.md
+  - inst-jump.md
